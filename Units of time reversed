@@ -1,0 +1,8 @@
+i = int(input())
+d=i/86400
+m=i%86400
+mim=m/3600
+se=m%3600
+sec=se/60
+sn=se%60
+print("The Duration is",str(int(d)),"days",str(int(mim)),"hours",str(int(sec)),"minutes",str(sn),"seconds")
